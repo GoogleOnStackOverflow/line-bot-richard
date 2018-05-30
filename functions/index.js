@@ -1,7 +1,6 @@
 'use strict';
 
-// Firebase Functions
-// OTP Verifier
+// Main webhook function
 exports.webhook = functions.https.onRequest((req, res) => {
   res.header('Access-Control-Allow-Origin', "*");
   res.header('Access-Control-Allow-Methods', 'POST');
