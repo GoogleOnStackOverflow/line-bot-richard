@@ -9,5 +9,3 @@ exports.webhook = functions.https.onRequest((req, res) => {
 
   res.send(200);
 });
-
-//https://github.com/GoogleOnStackOverflow/line-bot-richard.git
